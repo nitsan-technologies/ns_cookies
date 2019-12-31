@@ -1,0 +1,35 @@
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript" data-ignore="1">
+    window.cookieconsent_options = {
+        js:'<f:uri.resource absolute="1" path="js/cookieconsent.min.js" extensionName="ns_cookies" />',
+        css:'<f:uri.resource absolute="1" path="css/cookieconsent.min.css" extensionName="ns_cookies" />',
+        content: {
+            message:'<f:translate key="message" extensionName="ns_cookies" />',
+            dismiss:'<f:translate key="dismiss" extensionName="ns_cookies" />',
+            allow:'<f:translate key="dismiss" extensionName="ns_cookies" />',
+            deny: '<f:translate key="deny" extensionName="ns_cookies" />',
+            link:'<f:translate key="link" extensionName="ns_cookies" />',
+            href:'<f:uri.page pageUid="{settings.url}" />',
+            policy: '<f:translate key="policy" extensionName="ns_cookies" />',
+        },
+        theme: '<f:format.raw>{settings.theme}</f:format.raw>',
+        position: '<f:format.raw>{settings.position}</f:format.raw>',
+        type: '<f:format.raw>{settings.type}</f:format.raw>',
+        dismissOnScroll: parseInt('<f:format.raw>{settings.dismissOnScroll}</f:format.raw>')||false,
+        palette: {
+            popup: {
+                <f:if condition="{settings.barBg}">
+                    <f:then>background: '<f:format.raw>{settings.barBg}</f:format.raw>',</f:then>
+                    <f:else>background: 'rgba(0,0,0,.8)',</f:else>
+                </f:if>
+                text: '<f:format.raw>{settings.barColor}</f:format.raw>'
+            },
+            button: {
+                background: '<f:format.raw>{settings.btnBg}</f:format.raw>',
+                text: '<f:format.raw>{settings.btnColor}</f:format.raw>',
+            }
+        }
+    };
+</script>
+<script type="text/javascript" data-ignore="1" defer src="{f:uri.resource(extensionName: 'ns_cookies', path:'js/cookie.min.js', absolute: 1)}?v=9.5.2"></script>
+<!-- End Cookie Consent plugin -->

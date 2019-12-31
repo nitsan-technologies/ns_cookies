@@ -1,0 +1,23 @@
+{
+    "name": "nitsan/ns-cookies",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "NITSAN\\NsCookies\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NITSAN\\NsCookies\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "nitsan/ns-cookies": "self.version",
+        "typo3-ter/ns-cookies": "self.version"
+    }
+}
