@@ -34,9 +34,9 @@ ns_cookies {
         }
         # Define paths for templates, layout and partial
         paths {
-            templateRootPath = typo3conf/ext/ns_cookies/Resources/Private/Templates/
-            layoutRootPath = typo3conf/ext/ns_cookies/Resources/Private/Layouts/
-            partialRootPath = typo3conf/ext/ns_cookies/Resources/Private/Partials/
+            templateRootPath = EXT:ns_cookies/Resources/Private/Templates/
+            layoutRootPath = EXT:ns_cookies/Resources/Private/Layouts/
+            partialRootPath = EXT:ns_cookies/Resources/Private/Partials/
         }
     }
 }
