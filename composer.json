@@ -1,7 +1,7 @@
 {
     "name": "nitsan/ns-cookies",
     "type": "typo3-cms-extension",
-    "description": "Easily install and configure simple cookie-bar to make GDPR compliant your TYPO3 site. Live-Demo: https://demo.t3planet.com//t3t-extensions/cookies You can download PRO version for more-features & free-support at https://t3terminal.com/simple-cookie-bar-typo3-extension/",
+    "description": "Easily install and configure simple cookie-bar to make GDPR compliant your TYPO3 site.",
     "homepage": "https://extensions.typo3.org/extension/ns_cookies/",
     "license": "GPL-2.0+",
     "keywords": [
