@@ -1,11 +1,11 @@
 <?php
 
 $EM_CONF[$_EXTKEY] = [
-    'title' => 'Simple Cookies-Bar',
-    'description' => 'Easily install and configure simple cookie-bar to make GDPR compliant your TYPO3 site.',
+    'title' => 'TYPO3 Cookie Bar (Simple)',
+    'description' => 'Quickly add a simple, configurable cookie bar to your TYPO3 site to meet GDPR compliance requirements.',
     'category' => 'plugin',
-    'author' => 'T3Planet // NITSAN',
-    'author_company' => 'T3Planet // NITSAN',
+    'author' => 'Team T3Planet',
+    'author_company' => 'T3Planet',
     'author_email' => 'sanjay@nitsan.in',
     'state' => 'stable',
     'uploadfolder' => 0,
